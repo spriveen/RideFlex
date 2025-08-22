@@ -48,9 +48,9 @@ const Features = () => {
   return (
     <section className="py-16 bg-gray-100 px-4 sm:px-6 lg:px-28">
       <div className="max-w-7xl mx-auto text-center">
-        <h2 className="sm:text-4xl text-3xl font-bold text-gray-800 mb-4 hero-reveal">Why Choose AutoRent?</h2>
+        <h2 className="sm:text-4xl text-3xl font-bold text-gray-800 mb-4 hero-reveal">Why Choose RentAuto?</h2>
         <p className="text-gray-600 mb-12 max-w-2xl mx-auto text-lg hero-reveal">
-          We're committed to providing you with the best car rental experience through our premium services and customer-first approach.
+          Premium vehicles, trusted service, and a commitment to your satisfaction.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
