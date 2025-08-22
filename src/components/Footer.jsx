@@ -10,10 +10,10 @@ const Footer = () => {
         <div>
           <Link to='/' className="flex items-center space-x-2">
             <Car className="h-8 w-8 text-blue-500" />
-            <span className="text-xl font-bold">AutoRent</span>
+            <span className="text-xl font-bold">RentAuto</span>
           </Link>
           <p className="leading-relaxed my-4">
-            Your trusted partner for premium car rentals. Experience the freedom of the road with our quality vehicles and exceptional service.
+           Experience the road your way with our reliable and high-quality rentals.
           </p>
           <div className="flex gap-4 mt-2">
             <Facebook className="hover:text-white cursor-pointer" />
@@ -51,13 +51,13 @@ const Footer = () => {
           <h4 className="text-white font-semibold mb-4">Contact Us</h4>
           <ul className="space-y-3">
             <li className="flex items-center gap-2">
-              <Phone className="text-blue-400 w-5 h-5" /> +1 (555) 123-4567
+              <Phone className="text-blue-400 w-5 h-5" /> +94 (71) 123-4567
             </li>
             <li className="flex items-center gap-2">
-              <Mail className="text-blue-400 w-5 h-5" /> info@autorent.com
+              <Mail className="text-blue-400 w-5 h-5" /> info@rentauto.com
             </li>
             <li className="flex items-center gap-2">
-              <MapPin className="text-blue-400 w-5 h-5" /> 123 Main St, City, State 12345
+              <MapPin className="text-blue-400 w-5 h-5" /> Malwaththa Road, Colombo 6
             </li>
           </ul>
         </div>
@@ -65,7 +65,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="border-t border-gray-700 mt-10 pt-6 text-sm flex flex-col sm:flex-row justify-between items-center text-gray-500">
-        <p>&copy; {new Date().getFullYear()} AutoRent. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} RentAuto. Developed By Riveen_Official.</p>
         <div className="flex gap-4 mt-4 sm:mt-0">
           <a href="#" className="hover:underline">Privacy Policy</a>
           <a href="#" className="hover:underline">Terms of Service</a>
