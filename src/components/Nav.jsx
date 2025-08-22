@@ -14,7 +14,7 @@ const Nav = () => {
           {/* Logo */}
           <Link to='/' className="flex items-center space-x-2 text-gray-800">
             <Car className="h-8 w-8" />
-            <span className="text-xl font-bold">AutoRent</span>
+            <span className="text-xl font-bold">RentAuto</span>
           </Link>
 
           {/* Desktop Navigation */}
