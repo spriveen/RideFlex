@@ -40,7 +40,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="bg-gradient-to-br from-blue-500 to-blue-700 text-white sm:py-28 py-16 px-4 text-center">
+    <section className="bg-gradient-to-br from-green-500 to-blue-700 text-white sm:py-28 py-16 px-4 text-center">
       <h1 className="text-4xl sm:text-5xl font-bold mb-4 hero-reveal">
         Go Further with<span className="text-yellow-400">CarRentX</span>
       </h1>

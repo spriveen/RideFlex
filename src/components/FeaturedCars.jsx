@@ -114,9 +114,9 @@ const FeaturedCars = () => {
     <section className="bg-gray-100 py-20 sm:px-16 px-4">
       <div className="max-w-7xl mx-auto text-center mb-12 head-reveal">
         <h2 className="sm:text-4xl text-3xl font-bold mb-2 flex justify-center items-center gap-2">
-          <span className="text-blue-500"><Car className='w-12 h-12' /></span><span className='text-gray-800'>Featured Cars</span>
+          <span className="text-blue-500"><Car className='w-12 h-12' /></span><span className='text-gray-800'>Customer Favorites</span>
         </h2>
-        <p className="text-gray-600 text-lg">Discover our handpicked selection of premium vehicles, perfect for any journey</p>
+        <p className="text-gray-600 text-lg">Premium rides, handpicked for your perfect journey.</p>
       </div>
 
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
