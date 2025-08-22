@@ -42,30 +42,36 @@ const Hero = () => {
   return (
     <section className="bg-gradient-to-br from-blue-500 to-blue-700 text-white sm:py-28 py-16 px-4 text-center">
       <h1 className="text-4xl sm:text-5xl font-bold mb-4 hero-reveal">
-        Find Your Perfect <span className="text-yellow-400">Rental Car</span>
+        Go Further with<span className="text-yellow-400">CarRentX</span>
       </h1>
       <p className="text-lg sm:text-xl mb-12 text-gray-200 hero-reveal">
-        Discover amazing deals on quality vehicles. Book now and drive away with confidence.
+       Ride in comfort. Rent with confidence.
       </p>
 
       <div className="bg-white rounded-xl shadow-lg p-4 sm:p-6 max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-5 gap-4 items-end text-black hero-reveal">
         {/* Pickup Location */}
         <div>
           <label className="flex items-center gap-2 text-sm font-semibold text-gray-700 mb-2">
-            <MapPin className='w-5 h-5' /> <span>Pickup Location</span>
+            <MapPin className='w-5 h-5' /> <span>Departure Point</span>
           </label>
           <select className="w-full p-2 border border-gray-300 rounded cursor-pointer">
             <option>Select city</option>
-            <option>New York</option>
-            <option>Phoenix</option>
-            <option>Austin</option>
+            <option>Colombo</option>
+            <option>Nugegoda</option>
+            <option>Dehiwala</option>
+            <option>Mount Lavinia</option>
+            <option>Moratuwa</option>
+            <option>Panadura</option>
+            <option>Kaluthra</option>
+            <option>Aluthgama</option>
+            <option>Ambalangoda</option>
           </select>
         </div>
 
         {/* Pickup Date */}
         <div>
           <label className="flex items-center gap-2 text-sm font-semibold text-gray-700 mb-2">
-            <Calendar className='w-5 h-5' /> <span>Pickup Date</span>
+            <Calendar className='w-5 h-5' /> <span>Begin Date</span>
           </label>
           <input type="date" className="w-full p-2 border border-gray-300 rounded cursor-pointer" />
         </div>
@@ -73,7 +79,7 @@ const Hero = () => {
         {/* Pickup Time */}
         <div>
           <label className="flex items-center gap-2 text-sm font-semibold text-gray-700 mb-2">
-            <Clock className='w-5 h-5' /> <span>Pickup Time</span>
+            <Clock className='w-5 h-5' /> <span>Departure Time</span>
           </label>
           <input type='time' className="w-full p-2 border border-gray-300 rounded cursor-pointer" />
         </div>
@@ -97,11 +103,11 @@ const Hero = () => {
       {/* Stats */}
       <div className="mt-16 max-w-4xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-8 text-white hero-reveal">
         <div>
-          <h2 className="sm:text-4xl text-3xl font-bold">500+</h2>
+          <h2 className="sm:text-4xl text-3xl font-bold">700+</h2>
           <p className="sm:text-lg text-gray-200">Premium Cars</p>
         </div>
         <div>
-          <h2 className="sm:text-4xl text-3xl font-bold">50+</h2>
+          <h2 className="sm:text-4xl text-3xl font-bold">60+</h2>
           <p className="sm:text-lg text-gray-200">Locations</p>
         </div>
         <div>
@@ -109,7 +115,7 @@ const Hero = () => {
           <p className="sm:text-lg text-gray-200">Support</p>
         </div>
         <div>
-          <h2 className="sm:text-4xl text-3xl font-bold">99%</h2>
+          <h2 className="sm:text-4xl text-3xl font-bold">100%</h2>
           <p className="sm:text-lg text-gray-200">Satisfaction</p>
         </div>
       </div>
